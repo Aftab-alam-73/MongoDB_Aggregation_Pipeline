@@ -12,6 +12,6 @@ app.use("/api/authors",authorRoutes);
 app.get('/',(req, res) =>{res.send("MongoDB Aggregation Pipeline!")})
 
 app.listen(3000, ()=>{
-    connectToDatabase()
+    // connectToDatabase()
     console.log("Server is running on port 3000")
 })
